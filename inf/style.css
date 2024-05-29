@@ -65,7 +65,19 @@
     padding: 10px;
     border-radius: 5px;
   }
-  footer p {
+  footer a {
     font-size: 0.8em;
   }
-  
+  .no-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+  }
+
+  .no-link:hover,
+  .no-link:active,
+  .no-link:focus {
+      text-decoration: none; 
+      color: inherit;
+      cursor: default;
+  }
